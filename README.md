@@ -1,8 +1,10 @@
-#### Inherited (and adapted) from github.com/ignabelitzky/gcas
+<div style="align=right;color:cyan;">
+Inherited (and adapted) from github.com/ignabelitzky/gcas
+</div>
 
 # Runs
-1-dimensional gas with discretized values for linear momenta $p$, with slight uncertainties both in the recipient length $L$ (1m ± 0.1mm) and in $p$,added when bumping on the walls: each $E_j$ is changed to $E_j'$ chosen from a uniform distribution within $[E_j-\Delta E/2, E_j+\Delta E/2]$, where $\Delta E = \alpha\left[(p - p_{\rm min}) * (p_{\rm max}-p)\right]$.
-Since the spatial distributions allow smooth ends, 2 x-channels are added beyond each wall.
+1-dimensional gas with discretized values for linear momenta $p$, with slight uncertainties both in the recipient length $L$ (1m ± 0.1mm) and in $p$,added when bumping on the walls: each $E_j$ is changed to $E_j'$ chosen from a uniform distribution within $[E_j-\Delta E/2, E_j+\Delta E/2]$, where $\Delta E = \alpha\left[(p - p_{\rm min}) \cdot (p_{\rm max}-p)\right]$.
+Since the spatial distributions allow smooth ends, 2 $x$-channels are added beyond each wall.
 
 ### Instructions for program execution
 This program is designed for compilation through the command "make".
