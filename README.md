@@ -33,4 +33,4 @@ Once the program has been successfully compiled, it can be executed following th
 ./main
 ```
 
-**Note:** The files .dmp save dynamic info for 2^21 particles.
+**Note:** The files .dmp save dynamic info for $2^{21}$  particles.
