@@ -26,9 +26,10 @@ An executable (`main`) program will be created.
 ### Program execution
 Once the program has been successfully compiled, it can be executed following these steps:
 1. Make sure the input file `datos.in` is contained in the folder containing the executable program.
-2. Run the `main` program:
+2. Make sure a binary file named `retoma.dmp` is also available in this folder (initial dynamic state for each particle).
+3. Run the `main` program:
 ```Bash
 ./main
 ```
 
-**Note:** The files .dmp save dynamic info for $2^{21}$  particles.
+**Note:** The files `.dmp` save dynamic info for 2<sup>21</sup> particles.
